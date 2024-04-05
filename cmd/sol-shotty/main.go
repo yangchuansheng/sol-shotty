@@ -56,5 +56,5 @@ func main() {
 	fmt.Printf("Loading the shotty...\n")
 	http.HandleFunc("/", proxy)
 
-	http.ListenAndServe(":420", nil)
+	http.ListenAndServe("0.0.0.0:420", nil)
 }
